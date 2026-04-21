@@ -1,1 +1,1 @@
-# carbon-compass
+# Dual Carbon Intelligent Assistant
