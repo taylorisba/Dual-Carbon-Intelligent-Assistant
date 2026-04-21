@@ -241,7 +241,7 @@ uvicorn app.main:app --reload
 streamlit run streamlit_app/app.py
 ```
 
-## 8. 功能
+## 7. 功能
 
 已实现：
 - 可运行的 FastAPI 后端
@@ -257,6 +257,17 @@ streamlit run streamlit_app/app.py
 - 问答与报告生成
 
 - Streamlit 多页面前端
+  
+## 8.图片展示
+
+- <img width="2543" height="1476" alt="屏幕截图 2026-03-25 224655" src="https://github.com/user-attachments/assets/6e2c7c9c-0dae-4e94-82b7-71a1f1cb1557" />
+- <img width="2547" height="1476" alt="屏幕截图 2026-03-27 172301" src="https://github.com/user-attachments/assets/41b665ba-101f-4b11-8704-843db852862f" />
+- <img width="2558" height="1533" alt="屏幕截图 2026-03-27 172322" src="https://github.com/user-attachments/assets/41affb70-6b4c-4cbd-bf58-b0ac3892b940" />
+- <img width="2536" height="1478" alt="屏幕截图 2026-03-25 222654" src="https://github.com/user-attachments/assets/b342a151-4329-4304-9b25-5e76f971eb78" />
+
+
+
+
 
   
 
