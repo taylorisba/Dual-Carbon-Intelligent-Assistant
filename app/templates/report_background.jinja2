@@ -1,0 +1,26 @@
+﻿# {{ project_name }} 项目背景
+
+## 一、项目概况
+项目类型：{{ report_type }}
+地区：{{ region }}
+行业：{{ industry }}
+
+{{ project_summary }}
+
+## 二、政策背景
+{{ policy_background }}
+
+## 三、项目必要性
+{{ necessity }}
+
+## 四、政策依据梳理
+{{ policy_basis_summary }}
+
+## 五、引用来源
+{% if citations %}
+{% for citation in citations %}
+- 《{{ citation.title }}》{% if citation.section_path %} / {{ citation.section_path }}{% endif %}{% if citation.publish_date %} / {{ citation.publish_date }}{% endif %}{% if citation.region %} / {{ citation.region }}{% endif %}{% if citation.source_url %} / {{ citation.source_url }}{% endif %}
+{% endfor %}
+{% else %}
+- 暂无可用引用。
+{% endif %}

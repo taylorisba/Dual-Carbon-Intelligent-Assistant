@@ -1,0 +1,7 @@
+python scripts/rebuild_embeddings.py
+python scripts/init_db.py
+python scripts/import_sample_data.py
+
+uvicorn app.main:app --reload
+
+streamlit run streamlit_app/app.py
